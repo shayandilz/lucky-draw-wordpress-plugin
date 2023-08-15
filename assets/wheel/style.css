@@ -1,0 +1,167 @@
+/*.landing .col-lg-6 {*/
+/*    margin-top: 70px !important;*/
+/*}*/
+.landing form {
+    direction: ltr !important;
+}
+.landing form fieldset {
+    border: none;
+}
+.landing form legend {
+    font-size: 0;
+}
+.landing form input {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    text-align: center;
+    animation: pulsate 1.5s infinite alternate;
+    border: 0.2rem solid #fff;
+    border-radius: 10px;
+}
+@keyframes barberpole {
+    100% {
+        background-position: 50% 50%;
+    }
+}
+
+
+button.swipe-overlay-out {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+button.swipe-overlay-out::after {
+    transform: rotate(25deg);
+    top: -200%;
+    left: -190%;
+}
+
+button.swipe-overlay-out::after {
+    transition: 0.5s ease;
+}
+
+button.swipe-overlay-out:hover {
+    color: #F8493F;
+}
+
+button.swipe-overlay-out:hover:after {
+    left: 130%;
+}
+
+@media only screen and (min-width: 600px) {
+    input {
+        width: 4rem;
+        height: 4rem;
+        font-size: 3rem;
+    }
+
+    input + input {
+        margin-left: 1rem;
+    }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.dot-container {
+    position: absolute;
+    width: calc(100% - 12px);
+    height: calc(100% - 0px);
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+    box-shadow: rgba(255, 255, 255, 0.8) 0 -1px 7px 1px, inset #ffffff 0 -1px 9px, rgba(255, 255, 255, 0.5) 0 2px 12px;
+}
+
+@keyframes blinkEven {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        box-shadow: rgba(255, 255, 255, 0.8) 0 -1px 13px 5px, inset #fff 0 -1px 23px, rgba(255, 255, 255, 0.5) 0 2px 0;
+    }
+}
+@keyframes blinkOdd {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        box-shadow: rgba(255, 255, 255, 0.8) 0 -1px 13px 5px, inset #fff 0 -1px 23px, rgba(255, 255, 255, 0.5) 0 2px 0;
+    }
+}
+.odometer-numbers > span {
+    width: 32px !important;
+}
+
+
+/* CSS for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.uploadButton{
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+/* Apply the fade-in animation to the appended divs */
+.element {
+    animation: fadeIn 0.5s ease-in-out;
+    /* Adjust the animation duration and easing as needed */
+}
+.intro-up {
+    animation: intro-up 0.5s ease-in-out;
+}
+@keyframes intro-up {
+    from {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.intro-down {
+    animation: intro-up 0.5s ease-in-out;
+}
+@keyframes intro-down {
+    from {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,90 @@
+[12-Aug-2023 11:49:00 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:49:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 7 for query CREATE TABLE wp_lucky_draw_entries (
+            id INT NOT NULL AUTO_INCREMENT,
+            phone_number VARCHAR(255) NOT NULL,
+            campaign_prize VARCHAR(255) NOT NULL,
+            brand VARCHAR(255) NOT NULL,
+            PRIMARY KEY (id)
+        ) utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_lucky-draw-plugin/luckydraw.php'), WP_Hook->do_action, WP_Hook->apply_filters, lucky_draw_activate, lucky_draw_create_table, dbDelta
+[12-Aug-2023 11:49:00 UTC] Table creation completed
+[12-Aug-2023 11:50:02 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:50:02 UTC] Table creation completed
+[12-Aug-2023 11:51:02 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:51:02 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:51:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 7 for query CREATE TABLE wp_lucky_draw_entries (
+            id INT NOT NULL AUTO_INCREMENT,
+            phone_number VARCHAR(255) NOT NULL,
+            campaign_prize VARCHAR(255) NOT NULL,
+            brand VARCHAR(255) NOT NULL,
+            PRIMARY KEY (id)
+        ) utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_lucky-draw-plugin/luckydraw.php'), WP_Hook->do_action, WP_Hook->apply_filters, lucky_draw_activate, lucky_draw_create_table, dbDelta
+[12-Aug-2023 11:51:02 UTC] Table creation completed
+[12-Aug-2023 11:51:20 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:51:20 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:51:20 UTC] Table creation completed
+[12-Aug-2023 11:51:45 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:51:45 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:51:45 UTC] Table creation completed
+[12-Aug-2023 11:52:58 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:52:58 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:52:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 7 for query CREATE TABLE wp_lucky_draw_entries (
+            id INT NOT NULL AUTO_INCREMENT,
+            phone_number VARCHAR(255) NOT NULL,
+            campaign_prize VARCHAR(255) NOT NULL,
+            brand VARCHAR(255) NOT NULL,
+            PRIMARY KEY (id)
+        ) utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_lucky-draw-plugin/luckydraw.php'), WP_Hook->do_action, WP_Hook->apply_filters, lucky_draw_activate, lucky_draw_create_table, dbDelta
+[12-Aug-2023 11:52:58 UTC] Table creation completed
+[12-Aug-2023 11:55:41 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:55:41 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:55:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 7 for query CREATE TABLE wp_lucky_draw_entries (
+            id INT NOT NULL AUTO_INCREMENT,
+            phone_number VARCHAR(255) NOT NULL,
+            campaign_prize VARCHAR(255) NOT NULL,
+            brand VARCHAR(255) NOT NULL,
+            PRIMARY KEY (id)
+        ) utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_lucky-draw-plugin/luckydraw.php'), WP_Hook->do_action, WP_Hook->apply_filters, lucky_draw_activate, lucky_draw_create_table, dbDelta
+[12-Aug-2023 11:55:41 UTC] Table creation completed
+[12-Aug-2023 11:56:09 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:56:09 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:56:09 UTC] Table creation completed
+[12-Aug-2023 11:56:24 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:56:24 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:56:24 UTC] Table creation completed
+[12-Aug-2023 11:58:13 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 11:58:13 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 11:58:13 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'utf8mb4 COLLATE utf8mb4_unicode_520_ci' at line 7 for query CREATE TABLE IF NOT EXISTS wp_lucky_draw_entries (
+            id INT NOT NULL AUTO_INCREMENT,
+            phone_number VARCHAR(255) NOT NULL,
+            campaign_prize VARCHAR(255) NOT NULL,
+            brand VARCHAR(255) NOT NULL,
+            PRIMARY KEY (id)
+        ) utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_lucky-draw-plugin/luckydraw.php'), WP_Hook->do_action, WP_Hook->apply_filters, lucky_draw_activate, lucky_draw_create_table, dbDelta
+[12-Aug-2023 11:58:13 UTC] Table creation completed
+[12-Aug-2023 12:05:44 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:05:44 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:05:44 UTC] Table creation completed
+[12-Aug-2023 12:07:04 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:07:04 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:07:04 UTC] Table creation completed
+[12-Aug-2023 12:07:20 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:07:20 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:07:20 UTC] Table creation completed
+[12-Aug-2023 12:09:11 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:09:11 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:09:11 UTC] Table creation completed
+[12-Aug-2023 12:09:38 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:09:38 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:09:38 UTC] Table creation completed
+[12-Aug-2023 12:32:22 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:32:22 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:32:22 UTC] Table creation completed
+[12-Aug-2023 12:34:06 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:34:06 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:34:06 UTC] Table creation completed
+[12-Aug-2023 12:34:59 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:34:59 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:34:59 UTC] Table creation completed
+[12-Aug-2023 12:36:15 UTC] Plugin activated: Starting table creation
+[12-Aug-2023 12:36:15 UTC] Creating table: wp_lucky_draw_entries
+[12-Aug-2023 12:36:15 UTC] Table creation completed
