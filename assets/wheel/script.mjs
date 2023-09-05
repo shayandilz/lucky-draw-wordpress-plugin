@@ -172,10 +172,34 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+// Function to fetch JWT token
+    async function getJWTToken() {
+        const apiUrl = option1_data.site_url + '/wp-json/jwt-auth/v1/token';
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                // Include user credentials (username and password) for generating the token
+                body: JSON.stringify({
+                    username: option1_data.username, // Replace with the WordPress username
+                    password: option1_data.password, // Replace with the WordPress password
+                }),
+            });
 
-
-    uploadButton.addEventListener('click', async () => {
-
+            if (response.ok) {
+                const data = await response.json();
+                return data.token;
+            } else {
+                throw new Error('Failed to get JWT token.');
+            }
+        } catch (error) {
+            console.error('Error getting JWT token:', error);
+            throw error;
+        }
+    }
+    async function sendPostRequest(jwtToken) {
         const requestData = collectedData.map(item => ({
             entry_id: item.entry_id,
             phone_number: item.phone,
@@ -189,6 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: JSON.stringify(requestData),
                 headers: {
                     'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${jwtToken}`, // Include JWT token in the Authorization header
                 },
             });
             if (response.ok) {
@@ -224,6 +249,20 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } catch (error) {
             console.error('Error sending POST request:', error);
+        }
+    }
+    // Main function to handle the button click
+    uploadButton.addEventListener('click', async () => {
+        try {
+            const jwtToken = await getJWTToken(); // Get the JWT token
+
+            if (jwtToken) {
+                await sendPostRequest(jwtToken); // Send the POST request with the JWT token
+            } else {
+                console.error('JWT token not available.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
         }
     });
 

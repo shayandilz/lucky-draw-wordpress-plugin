@@ -8,11 +8,6 @@ Author URI: Your Website
 */
 
 
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 require_once plugin_dir_path(__FILE__) . 'includes/enqueue-scripts.php';
 require_once plugin_dir_path(__FILE__) . 'includes/admin-settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/shortcodes.php';

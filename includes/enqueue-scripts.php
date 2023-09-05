@@ -27,7 +27,9 @@ function lucky_draw_enqueue_scripts()
         $option1_data = array(
             'inputValue' => get_option('option1_input_value', ''),
             'acfNumberValue' => get_option('option1_acf_number_value', ''),
-            'site_url' => get_site_url()
+            'site_url' => get_site_url(),
+            'username' => 'sh.dilmaghani',
+            'password' => '6yS7 82gj qdOW 4PpR ONX3 HIa7'
         );
         wp_localize_script('option1-script', 'option1_data', $option1_data);
     } elseif ($current_option === 'option2') {
